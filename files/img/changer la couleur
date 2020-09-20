@@ -1,0 +1,37 @@
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;40;30m\u@\h \e[0;42;31m\w $ \e[1;46;35m'
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[7;31m\u@\h \e[0;35m\w $ \e[1;34m'
+export PS1='\e[4;40;36m\u@\h \e[0;42;31m\w $ \e[1;46;35m'
+export PS1='\e[4;46;34m\u@\h \e[0;42;31m\w $ \e[1;46;35m'
+export PS1='\e[4;46;37m\u@\h \e[0;42;35m\w $ \e[1;46;37m'
+                                                                                                                                                   
+
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+
+tcolinux=[30,31,32,33,34,35,36,37]
+bcolinux=[40,41,42,43,44,45,46,47]
+fonlinux=[0,1,4,7,9]
+
+Couleur	  Texte	Arrière-Plan
+noir	   30	   40
+rouge	   31	   41
+vert	   32	   42
+jaune	   33	   43
+bleu	   34	   44
+violet	   35	   45
+bleu clair 36	   46
+blanc	   37	   47
+
+correspondances de la première valeur devant le code couleur:
+
+0: normal
+1: gras
+4: souligné
+7: fond
+9: barré
+
